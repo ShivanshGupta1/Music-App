@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background:url(https://i.pinimg.com/originals/5b/30/cf/5b30cfffef3f5a05460f73d8557d780e.jpg) no-repeat center center fixed;
+background-size:cover;
+-webkit-background-size:cover;">
+    <audio id="myAudio">
+        <source src="Cowboy_Theme-Pavak-1711860633.mp3">
+      </audio>
+      
+      <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; text-align: center;">Music Player</h1>
+      
+      <button style="margin-left: 600px; background-color: crimson; color: white; height: 100px; width: 100px;" onclick="playAudio()" type="button">Play</button>
+      <button style="background-color: teal; color: white; height: 100px; width: 100px;"onclick="pauseAudio()" type="button">Pause</button> 
+      
+      <script>
+      let x = document.getElementById("myAudio");
+      function playAudio() { 
+        x.play(); 
+      } 
+      function pauseAudio() { 
+        x.pause(); 
+      } 
+      </script>
+    
+</body>
+</html>
